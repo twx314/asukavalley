@@ -31,9 +31,8 @@
    				 }); 
 		</script> 
 	<![endif]-->
-	
-    
-    
+
+
 	<?php wp_get_archives('type=monthly&format=link'); ?>
 	<?php //comments_popup_script(); // off by default ?>
 	<?php wp_head(); ?>
@@ -56,7 +55,7 @@
         <p id="SiteDescription"><?php bloginfo('description');?></p>
     </div>
     
-	<nav id="Mainnav">
+	<nav id="Mainnav" class="ContentSetting">
     	<ul>
             <li>
             	<ruby>

@@ -1,3 +1,4 @@
 // JavaScript Document
-
+/*
 justfontConfig={'appId':'578fceadc0XvLS9sqhOcRNomIFJpffgKs7WO9679ytg-w9teRPZeCIgSbYvWT_d2U_7bCAGXrKA3-EE72FMu7gtHV1FdUxeZcqbmwLbjIQfxbjdOw7zbUWbTANZapa6ww4Rcqh8vG_sywJ4EN-w8Z14PBYkgvMc1DHWUN_3fsQT2wlS2sIw=','p':'21435','font':{'wt005':{'alias':'Super_wong'},'WCL-02':{'alias':'SP_wong'}}};window.jfAsyncInit=function(){jf.main(justfontConfig)};(function(){var c={'scriptTimeout':3000};var h=document.getElementsByTagName("html")[0];h.className+=" jf-loading";var e=setTimeout(function(){h.className=h.className.replace(/(\s|^)jf-loading(\s|$)/g," ");h.className+=" jf-inactive"},c.scriptTimeout);var jfscript=document.createElement("script");var d=false;jfscript.type="text/javascript";jfscript.async=true;jfscript.src='http://ds.justfont.com/js/stable/v/1.13/id/91795062746';jfscript.onload=jfscript.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded"){return}d=true;clearTimeout(e)};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(jfscript,s)})();
+*/
