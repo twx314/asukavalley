@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="NightMask">
 
 <div id="center_wrapper">
 <div id="center">
@@ -154,6 +155,8 @@ if ( $query->have_posts() ) :
 
 
 </div> <!-- Center END -->
+</div>
+
 </div>
 <?php get_footer(); ?>
 
