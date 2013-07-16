@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.NightMask{
+	background:url(Image/Trans/Orange_10.png);
+}
+
+#header_BG{
+background: #ffd07f;
+background: -moz-linear-gradient(top,  #ffd07f 0%, #9ef5ff 75%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd07f), color-stop(75%,#9ef5ff));
+background: -webkit-linear-gradient(top,  #ffd07f 0%,#9ef5ff 75%);
+background: -o-linear-gradient(top,  #ffd07f 0%,#9ef5ff 75%);
+background: -ms-linear-gradient(top,  #ffd07f 0%,#9ef5ff 75%);
+background: linear-gradient(to bottom,  #ffd07f 0%,#9ef5ff 75%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd07f', endColorstr='#9ef5ff',GradientType=0 );
+
+}

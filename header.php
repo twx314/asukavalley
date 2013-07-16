@@ -23,11 +23,15 @@
    	<script>
 	function getStylesheet() {
       var currentTime = new Date().getHours();
-      if (currentTime <=22 &&currentTime < 2) {
+      if (currentTime >=20 || currentTime < 6) {
        document.write("<link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/NightTime.css' type='text/css'>");
       }
-	  else
-	  {alert (currentTime);}
+	  else if (currentTime >=17 || currentTime < 20) {
+       document.write("<link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/DuskTime.css' type='text/css'>");
+      }
+	  else{
+		  alert(currentTime);
+	  }
 	}
 	
 	getStylesheet();
@@ -67,11 +71,12 @@
 <header>
 	
 	<div id="header_BG">
-
+    	<div id="Bground"></div>
+		<div id="Fground"></div>
+        <div id="Rock"></div>
     	<div id="Cloud_1"></div>
         <div id="Cloud_2"></div>
         <div id="Cloud_3"></div>
-        <div id="Fground"></div>
         <div class="NightMask"></div>
     </div>
     
@@ -80,7 +85,7 @@
         <p id="SiteDescription"><?php bloginfo('description');?></p>
     </div>
     
-	<nav id="Mainnav" class="ContentSetting">
+	<nav id="Mainnav" class="NavitSetting">
     	<ul>
             <li>
             	<ruby>

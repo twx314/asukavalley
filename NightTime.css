@@ -4,3 +4,14 @@
 .NightMask{
 	background:url(Image/Trans/Blue_20.png);
 }
+
+#header_BG{
+background: #006f9b;
+background: -moz-linear-gradient(top,  #006f9b 0%, #0099ff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006f9b), color-stop(100%,#0099ff));
+background: -webkit-linear-gradient(top,  #006f9b 0%,#0099ff 100%);
+background: -o-linear-gradient(top,  #006f9b 0%,#0099ff 100%);
+background: -ms-linear-gradient(top,  #006f9b 0%,#0099ff 100%);
+background: linear-gradient(to bottom,  #006f9b 0%,#0099ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006f9b', endColorstr='#0099ff',GradientType=0 );
+}

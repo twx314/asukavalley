@@ -27,7 +27,6 @@ Author URI:
 	box-shadow:5px 5px 30px 3px #333;
 }
 
-
 h1.ContentTitle{
 	font-family:Microsoft JhengHei;
 	font-weight:600;
@@ -128,31 +127,50 @@ header{
 
 #header_BG{
 
-	background: #a1dbff;
-background: -moz-linear-gradient(top,  #a1dbff 0%, #cbebff 53%, #f0f9ff 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a1dbff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff));
-background: -webkit-linear-gradient(top,  #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-background: -o-linear-gradient(top,  #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-background: -ms-linear-gradient(top,  #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-background: linear-gradient(to bottom,  #a1dbff 0%,#cbebff 53%,#f0f9ff 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 );
+background: #70caff;
+background: -moz-linear-gradient(top,  #70caff 0%, #cbebff 53%, #f0f9ff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70caff), color-stop(53%,#cbebff), color-stop(100%,#f0f9ff));
+background: -webkit-linear-gradient(top,  #70caff 0%,#cbebff 53%,#f0f9ff 100%);
+background: -o-linear-gradient(top,  #70caff 0%,#cbebff 53%,#f0f9ff 100%);
+background: -ms-linear-gradient(top,  #70caff 0%,#cbebff 53%,#f0f9ff 100%);
+background: linear-gradient(to bottom,  #70caff 0%,#cbebff 53%,#f0f9ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70caff', endColorstr='#f0f9ff',GradientType=0 );
+
 
 	width:auto;
-	height:200px;
+	height:350px;
 }
 
 #Fground{
 	background:url(Image/Top_glass.png);
 	background-repeat:repeat-x;
 	position:absolute;
-	top:100px;
+	top:250px;
 	width:100%;
 	height:203px;	
 }
 
+#Bground{
+	background:url(Image/Mountain.png);
+	position:absolute;
+	top:125px;
+	left:45%;
+	width:1490px;
+	height:200px;	
+}
+
+#Rock{
+	background:url(Image/Stone.png);
+	position:absolute;
+	top:220px;
+	left:3%;
+	width:310px;
+	height:128px;	
+}	
+
 #Cloud_1{
 	background-image:url(Image/Cloud_1.png);
-	width:1573px;
+	width:1568px;
 	height:105px;
 	position:absolute;
 	left:-2000px;
@@ -175,6 +193,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', end
 }
 
 /*--- Navibar ---------------------------------------------------------------*/
+.NavitSetting{
+	margin-bottom:25px;
+	padding:15px;
+	background-image:url(Image/Trans/SkyBlue_80.png);
+	border-radius:25px;
+	box-shadow:-2px -2px 5px 2px #000 inset,5px 5px 30px 5px #333;
+}
+
 #SiteTitle{	
 	height:150px;
 	margin-top:-50px;
@@ -223,7 +249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', end
 	font-weight:600;
 	width:150px;
 	height:45px;
-	padding-top:8px;
+	padding-top:5px;
 	border-right:1px dashed #666;
 	float:left;
 	font-size:24px;
