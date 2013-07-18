@@ -18,12 +18,11 @@
 
 <div class="ContentSetting"> 
 	<h1 class="ContentTitle">更新覆歷 (動畫)</h1>
-	<hr />
     
 <!-- First Recent Post (Anime) ------------------------------------------------------------------------------------>    
 <?php
 $args = array(
-	'cat' => 3,
+	'post_type' => 'anime',
 	'posts_per_page' => 1
 );
 
@@ -41,10 +40,9 @@ if ( $query->have_posts() ) :
         <p class="News_FirstRecentPostDate"><?php the_time('M d, Y');?></p>
         <hr class="solid" />
         <p class="News_RecentPostContent"><?php the_excerpt(); ?></p>
-        
-        <div class="clear"></div>
      </div>   
      <hr/>
+
 <?php		
 	endwhile;
 	endif;
@@ -55,7 +53,7 @@ if ( $query->have_posts() ) :
 <?php
 $skip = 0;
 $args = array(
-	'cat' => 3,
+	'post_type' => 'anime',
 	'posts_per_page' => 4,
 	'offset' => 1
 );
@@ -87,12 +85,11 @@ if ( $query->have_posts() ) :
 
 <div class="ContentSetting">
 	<h1 class="ContentTitle">更新覆歷 (Galgame)</h1>
-	<hr />
     
 <!-- First Recent Post (Galgame) ------------------------------------------------------------------------------------>     
 <?php
 $args = array(
-	'cat' => 2,
+	'post_type' => 'game',
 	'posts_per_page' => 1
 );
 
@@ -110,8 +107,6 @@ if ( $query->have_posts() ) :
         <p class="News_FirstRecentPostDate"><?php the_time('M d, Y');?></p>
         <hr class="solid" />
         <div class="News_RecentPostContent"><?php the_excerpt(); ?></div>
-        
-        <div class="clear"></div>
      </div>   
      <hr/>
 <?php		
@@ -123,7 +118,7 @@ if ( $query->have_posts() ) :
 <!-- Other Recent Post (Galgame) ------------------------------------------------------------------------------------>
 <?php
 $args = array(
-	'cat' => 2,
+	'post_type' => 'game',
 	'posts_per_page' => 4,
 	'offset' => 1
 );
@@ -157,6 +152,6 @@ if ( $query->have_posts() ) :
 </div> <!-- Center END -->
 </div>
 
-</div>
+</div> <!-- NightMask END -->
 <?php get_footer(); ?>
 

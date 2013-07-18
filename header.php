@@ -71,12 +71,13 @@
 <header>
 	
 	<div id="header_BG">
+    	<div id="Star"></div>
     	<div id="Bground"></div>
 		<div id="Fground"></div>
         <div id="Rock"></div>
     	<div id="Cloud_1"></div>
         <div id="Cloud_2"></div>
-        <div id="Cloud_3"></div>
+        <div id="Cloud_3"></div>    
         <div class="NightMask"></div>
     </div>
     

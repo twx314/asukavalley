@@ -61,5 +61,7 @@
 </div> <!-- Center END -->
 </div>
 </div> <!-- NightMask END -->
+
+<h1 class="ContentTitle">更新覆歷 (動畫)</h1>
 <?php get_footer(); ?>
 
