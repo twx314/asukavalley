@@ -5,10 +5,23 @@ add_action( 'widgets_init', 'my_register_sidebars' );
 function my_register_sidebars() {
 
 	/* Register the 'primary' sidebar. */
+	
 	register_sidebar(
 		array(
-			'id' => 'intro_gal',
-			'name' => 'intro_gal',
+			'id' => 'intro_home',
+			'name' => 'intro_home',
+			'description' => 'Intro for home pages.' ,
+			'before_widget' => '<div>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		)
+	);	
+	
+	register_sidebar(
+		array(
+			'id' => 'intro_game',
+			'name' => 'intro_game',
 			'description' => 'Intro for galgame pages.' ,
 			'before_widget' => '<div>',
 			'after_widget' => '</div>',
@@ -17,6 +30,30 @@ function my_register_sidebars() {
 		)
 	);
 
+	register_sidebar(
+		array(
+			'id' => 'intro_anime',
+			'name' => 'intro_anime',
+			'description' => 'Intro for anime pages.' ,
+			'before_widget' => '<div>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		)
+	);
+	
+	register_sidebar(
+		array(
+			'id' => 'intro_olg',
+			'name' => 'intro_olg',
+			'description' => 'Intro for Online game pages.' ,
+			'before_widget' => '<div>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		)
+	);
+		
 	register_sidebar(
 		array(
 			'id' => 'search',
@@ -69,6 +106,7 @@ function my_custom_post_anime() {
 		'menu_position' => 5,
 		'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
 		'has_archive'   => true,
+		'taxonomies' => array('category', 'post_tag')
 	);
 	register_post_type( 'anime', $args );	
 }
@@ -96,22 +134,12 @@ function my_custom_post_game() {
 		'menu_position' => 5,
 		'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
 		'has_archive'   => true,
+		'taxonomies' => array('category', 'post_tag')
 	);
 	register_post_type( 'game', $args );	
 }
 
 add_action( 'init', 'my_custom_post_anime' );
 add_action( 'init', 'my_custom_post_game' );
-
-
-
-
-
-
-
-
-
-
-
 
 ?>

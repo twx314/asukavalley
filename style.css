@@ -9,9 +9,6 @@ Author URI:
 */
 
 /*=== Basic =====================================================================================================*/
-
-
-
 .BasicSetting{
 	background-image:url(Image/Trans/white_50.png);
 	border-radius:25px;
@@ -27,7 +24,18 @@ Author URI:
 	box-shadow:5px 5px 30px 3px #333;
 }
 
-h1.ContentTitle{
+.SingleContentSetting{
+	margin-bottom:25px;
+	padding:10px 10px 20px 10px;
+	background-image:url(Image/Trans/white_75.png);
+	border-radius:25px;
+	box-shadow:5px 5px 30px 3px #333;
+	line-height:1.5em;
+}
+
+h1.ContentTitle,
+h1.SingleTitle
+{
 	padding-left:10px;
 	border-radius:15px 15px 0 0;
 	font-family:Microsoft JhengHei;
@@ -36,6 +44,11 @@ h1.ContentTitle{
 	line-height:50px;
 	text-shadow: 3px 3px 5px #666;
 	background:url(Image/Trans/MixGreen_50.png);
+}
+
+h1.SingleTitle{
+	padding-bottom:10px;
+	margin-bottom:10px;
 }
 
 h2.ArticleTitle{
@@ -76,17 +89,6 @@ hr.solid{
 	clear:both;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .inline{
 	display:inline;
 }
@@ -114,9 +116,16 @@ body{
 	width:100%;
 }
 
-.NightMask{
+.NightMask
+{
 	width:100%;
 	height:100%;
+	position:absolute;
+}
+
+.NightMask_body{
+	width:100%;
+	height:auto;
 	position:absolute;
 }
 
@@ -374,7 +383,45 @@ rt, a:link rt, a:visited rt {
 	line-height:20px;
 }
 
+/*============================================================================================================*/
 
-
+/*=== single.php CSS =========================================================================================*/
+.SinglePostDate
+{
+	margin-top:-10px;
+	font-size:12px;
+	line-height:12px;
+	text-indent:3px;
+}
 
 /*============================================================================================================*/
+
+/*=== Anime post template ====================================================================================*/
+.Anime_infotable{
+	margin:auto;
+	width:80%;
+}
+
+#Anime_logo{
+	text-align:center;
+	border:none;
+}
+
+#Anime_radar{
+	width:45%;
+	text-align:right;
+	border:none;
+}
+
+.Anime_infotable th{
+	width:20%;
+	background:url(Image/Trans/Green_33.png);
+	border-radius:5px;
+	border-right:groove 1px #999;
+	border-bottom:groove 1px #999;
+}
+
+.Anime_infotable td{
+	width:34%;
+	
+}

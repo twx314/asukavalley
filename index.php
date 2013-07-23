@@ -1,11 +1,11 @@
 <?php get_header(); ?>
-<div class="NightMask">
+<div class="NightMask_body">
 
 <div id="center_wrapper">
 <div id="center">
 
 <div id="Left_column">
-	<?php get_sidebar( 'intro_gal' ); ?>
+	<?php get_sidebar( 'intro_home' ); ?>
 </div>
 	
 <div id="Right_column">
