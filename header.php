@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 
 	<title><?php wp_title(); ?></title>
 
@@ -17,6 +16,10 @@
     
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSSReset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    
+    <!-- Loading CSS file for fancybox -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    
     
     <!-- Loading CSS file for different time period -->
     
@@ -44,6 +47,9 @@
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/preload_function.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/animation.js" type="text/javascript"></script>
+    
+    <!-- Loading fancybox files -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5" type="text/javascript"></script>
  
 <!-- Fix for IE ---------------------------------------------------------------------------------------------------------------------------------------->
  

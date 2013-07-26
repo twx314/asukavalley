@@ -1,11 +1,13 @@
 <?php
 
 add_action( 'widgets_init', 'my_register_sidebars' );
+add_action( 'init', 'my_custom_post_anime' );
+add_action( 'init', 'my_custom_post_game' );
+add_action( 'init', 'my_custom_taxonomies', 0 );
 
+/* Register the custom sidebar */
 function my_register_sidebars() {
 
-	/* Register the 'primary' sidebar. */
-	
 	register_sidebar(
 		array(
 			'id' => 'intro_home',
@@ -106,7 +108,6 @@ function my_custom_post_anime() {
 		'menu_position' => 5,
 		'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
 		'has_archive'   => true,
-		'taxonomies' => array('category', 'post_tag')
 	);
 	register_post_type( 'anime', $args );	
 }
@@ -134,12 +135,87 @@ function my_custom_post_game() {
 		'menu_position' => 5,
 		'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
 		'has_archive'   => true,
-		'taxonomies' => array('category', 'post_tag')
 	);
 	register_post_type( 'game', $args );	
 }
 
-add_action( 'init', 'my_custom_post_anime' );
-add_action( 'init', 'my_custom_post_game' );
 
+/* Function for custom taxonomies */
+function my_custom_taxonomies() {
+ 
+    register_taxonomy(
+        'Director',
+        array( 'anime' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Director' ),
+                'singular_name' => __( 'Director' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'Character_Design',
+        array( 'anime' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Character Design' ),
+                'singular_name' => __( 'Character Design' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'Music',
+        array( 'anime' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Music' ),
+                'singular_name' => __( 'Music' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'Animation',
+        array( 'anime' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Animation' ),
+                'singular_name' => __( 'Animation' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'Anime_Voice_Actor',
+        array( 'anime' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Voice Actor' ),
+                'singular_name' => __( 'Voice Actor' )
+            ),
+        )
+    );
+}
 ?>

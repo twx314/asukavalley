@@ -75,6 +75,15 @@ h4.SidebarSubTitle{
 	background:url(Image/Trans/Green_50.png);
 }
 
+span.bold{
+	font-weight:bold;
+}
+
+span.review_subtitle{
+	font-weight:bold;
+	margin-left:15px;
+}
+
 hr{
 	height:1px;
 	border:none;
@@ -397,23 +406,22 @@ rt, a:link rt, a:visited rt {
 /*============================================================================================================*/
 
 /*=== Anime post template ====================================================================================*/
-.Anime_infotable{
+.Review_infotable{
 	margin:auto;
 	width:80%;
+	min-width:450px;
 }
 
-#Anime_logo{
+#Review_logo{
 	text-align:center;
-	border:none;
 }
 
-#Anime_radar{
+#Review_radar{
 	width:45%;
 	text-align:right;
-	border:none;
 }
 
-.Anime_infotable th{
+.Review_infotable th{
 	width:20%;
 	background:url(Image/Trans/Green_33.png);
 	border-radius:5px;
@@ -421,7 +429,46 @@ rt, a:link rt, a:visited rt {
 	border-bottom:groove 1px #999;
 }
 
-.Anime_infotable td{
+.Review_infotable td{
 	width:34%;
-	
+	font-size:14px;
+}
+
+.Review_infotable p{
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.Review_content p{
+	text-indent:25px;
+	padding: 0 20px;
+}
+
+h4.Review_title,h3.Review_character_name{
+	margin-top:15px;
+	margin-bottom:10px;
+	padding-left:15px;
+	border-radius:5px;
+	font-size:20px;
+	line-height:36px;
+	font-weight:bold;
+	background:url(Image/Trans/Green_50.png);
+}
+
+h3.Review_character_name{
+	margin-left:15px;
+}
+
+.Review_character{
+
+	margin-left:10px;
+}
+
+.Anime_SS{
+	float:left;
+	margin-left:30px;
+}
+
+.SS_wrapper{
+	overflow:hidden;
 }
