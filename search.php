@@ -7,9 +7,11 @@
 
 <div id="Main_content">
 <div class="ContentSetting"> 
-	<h1 class="ContentTitle"><?php single_cat_title(); ?> 的參與作品</h1>
+	<h1 class="ContentTitle"><?php the_search_query(); ?> 的找尋結果</h1>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : ?>
+
+	<?php while ( have_posts() ) : the_post(); ?>
 
 	<div class="News_FirstRecentPost">	
 		<h2 class="ArticleTitle"><a href="<?php the_permalink(); ?>"> <?php the_title();?> </a></h2>
@@ -17,9 +19,15 @@
         <hr class="solid" />
 		<div class="PostIMG"><?php the_post_thumbnail('News_thumb'); ?></div>
         <p class="News_RecentPostContent"><?php the_excerpt(); ?></p>
-	</div>   
+	</div>
+    
+	<?php endwhile; ?>
 
-<?php endwhile; ?>
+<?php else : ?>
+
+	<p class="sorry">抱歉,沒有找到你想找的資料.</p>
+    
+<?php endif; ?>
 
 </div> <!-- ContentSetting END -->
 </div> <!-- Main content END -->

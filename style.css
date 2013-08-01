@@ -22,6 +22,7 @@ Author URI:
 	background-image:url(Image/Trans/white_75.png);
 	border-radius:25px;
 	box-shadow:5px 5px 30px 3px #333;
+	overflow:hidden; /* To fix the float problem */
 }
 
 .SingleContentSetting{
@@ -84,6 +85,12 @@ span.review_subtitle{
 	margin-left:15px;
 }
 
+p.sorry{
+	font-size:24px;
+	text-align:center;
+	line-height:2em;
+}
+	
 hr{
 	height:1px;
 	border:none;
@@ -96,6 +103,10 @@ hr.solid{
 
 .clear{
 	clear:both;
+}
+
+.overflow{
+	overflow:hidden;
 }
 
 .inline{
@@ -306,11 +317,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70caff', end
 	text-align:center;
 }
 
-#Mainnav li:hover{
+#Mainnav a:link, #Mainnav a:visited{
+	color:black;
+}
+
+#Mainnav a:hover{
 	cursor:pointer;
 	color:red;
 }
 
+	
 
 ruby{
     display: inline-table;
@@ -367,6 +383,10 @@ rt, a:link rt, a:visited rt {
 
 .News_FirstRecentPost{
 	padding:10px;
+	background:url url(Image/Trans/Blue_20.png);
+}
+.News_FirstRecentPost span{
+	line-height:1.25em;
 }
 
 .News_RecentPost{
@@ -378,6 +398,10 @@ rt, a:link rt, a:visited rt {
 	font-size:12px;
 	line-height:12px;
 	text-indent:3px;
+}
+
+.News_FirstRecentPost:nth-of-type(even){
+	background:url(Image/Trans/Green_50.png);
 }
 
 .News_RecentPostDate{

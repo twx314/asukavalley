@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
 
 	<title><?php wp_title(); ?></title>
 
@@ -95,31 +96,39 @@
 	<nav id="Mainnav" class="NavitSetting">
     	<ul>
             <li>
+            	<a href="http://www.asukavalley.com">
             	<ruby>
                 	首頁
                 	<rt>Top page</rt>
                 </ruby>
+                </a>
             </li>
             
             <li>
+            	<a href="http://www.asukavalley.com/galgame-list/">
             	<ruby>
                 	美少女遊戲
                 	<rt>Galgame</rt>
                 </ruby>
+                </a>
             </li>
             
             <li>
+            	<a href="http://www.asukavalley.com/anime-list/">
             	<ruby>
                 	動畫
                 	<rt>Anime</rt>
                 </ruby>
+                </a>
             </li>
             
             <li>
+            	<a href="http://www.asukavalley.com/olg/">
             	<ruby>
                 	線上遊戲
                 	<rt>Online game</rt>
                 </ruby>
+                </a>
             </li>
         </ul>
     </nav>
