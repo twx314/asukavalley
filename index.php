@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: HomePage
+*/
+?>
 <?php get_header(); ?>
 <div class="NightMask_body">
 <div id="center_wrapper">

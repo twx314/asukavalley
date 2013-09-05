@@ -142,7 +142,9 @@ function my_custom_post_game() {
 
 /* Function for custom taxonomies */
 function my_custom_taxonomies() {
- 
+
+/* --- Anime taxonomy -----------------------------------*/
+
     register_taxonomy(
         'Director',
         array( 'anime' ),
@@ -217,5 +219,98 @@ function my_custom_taxonomies() {
             ),
         )
     );
+
+/* --- Galgame taxonomy -----------------------------------*/
+
+    register_taxonomy(
+        'system',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'System' ),
+                'singular_name' => __( 'System' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'company',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Company' ),
+                'singular_name' => __( 'Company' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'scenario',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Scenario' ),
+                'singular_name' => __( 'Scenario' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'graphic',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Graphic' ),
+                'singular_name' => __( 'Graphic' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'audio',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Audio' ),
+                'singular_name' => __( 'Audio' )
+            ),
+        )
+    );
+
+    register_taxonomy(
+        'Game_Voice_Actor',
+        array( 'game' ),
+        array(
+            'hierarchical' => true,
+            'public' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'labels' => array(
+                'name' => __( 'Voice Actor' ),
+                'singular_name' => __( 'Voice Actor' )
+            ),
+        )
+    );
+
 }
 ?>

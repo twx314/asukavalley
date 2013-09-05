@@ -8,6 +8,10 @@ Author URI:
 
 */
 
+/*=== CSS Reset =================================================================================================*/
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}
+
 /*=== Basic =====================================================================================================*/
 .BasicSetting{
 	background-image:url(Image/Trans/white_50.png);
@@ -45,6 +49,7 @@ h1.SingleTitle
 	line-height:50px;
 	text-shadow: 3px 3px 5px #666;
 	background:url(Image/Trans/MixGreen_50.png);
+	box-shadow:2px 2px 10px #666;
 }
 
 h1.SingleTitle{
@@ -65,6 +70,7 @@ h3.SidebarTitle{
 	line-height:40px;
 	text-shadow: 3px 3px 3px #333;
 	background:url(Image/Trans/MixGreen_75.png);
+	box-shadow:2px 2px 10px #666;
 }
 
 h4.SidebarSubTitle{
@@ -74,6 +80,7 @@ h4.SidebarSubTitle{
 	line-height:30px;
 	font-weight:bold;
 	background:url(Image/Trans/Green_50.png);
+	box-shadow:2px 2px 10px #666;
 }
 
 span.bold{
@@ -82,7 +89,7 @@ span.bold{
 
 span.review_subtitle{
 	font-weight:bold;
-	margin-left:15px;
+	margin-left:-30px;
 }
 
 p.sorry{
@@ -149,7 +156,7 @@ body{
 	position:absolute;
 }
 
-#center_wrapper{min-width:1000px;}
+#center_wrapper{min-width:1200px;}
 
 #center{
 	width:90%;
@@ -178,7 +185,7 @@ body{
 header{
 	margin:0 auto;
 	width:auto;
-	min-width:1000px;
+	min-width:1200px;
 	height:auto;
 	position:relative;
 	overflow:hidden;
@@ -297,7 +304,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70caff', end
 
 #Mainnav{
 	width:90%;
-	min-width:900px;
+	min-width:1100px;
 	height:50px;
 	margin:-30px auto 50px;
 	padding:5px;
@@ -325,8 +332,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70caff', end
 	cursor:pointer;
 	color:red;
 }
-
-	
 
 ruby{
     display: inline-table;
@@ -363,12 +368,6 @@ rt, a:link rt, a:visited rt {
 	width:150px;
 	height:150px;
 }
-
-
-
-
-
-
 
 /*=== index.php CSS (homepage) ==============================================================================*/
 
@@ -429,7 +428,7 @@ rt, a:link rt, a:visited rt {
 
 /*============================================================================================================*/
 
-/*=== Anime post template ====================================================================================*/
+/*=== Post template ====================================================================================*/
 .Review_infotable{
 	margin:auto;
 	width:80%;
@@ -437,7 +436,13 @@ rt, a:link rt, a:visited rt {
 }
 
 #Review_logo{
+	padding:30px;
 	text-align:center;
+}
+
+#Review_logo img{
+	border-radius:5px;
+	box-shadow:3px 3px 10px #666;
 }
 
 #Review_radar{
@@ -449,13 +454,13 @@ rt, a:link rt, a:visited rt {
 	width:20%;
 	background:url(Image/Trans/Green_33.png);
 	border-radius:5px;
-	border-right:groove 1px #999;
-	border-bottom:groove 1px #999;
+	box-shadow:2px 2px 2px #666;
 }
 
 .Review_infotable td{
 	width:34%;
 	font-size:14px;
+	padding-left:5px;
 }
 
 .Review_infotable p{
@@ -477,22 +482,40 @@ h4.Review_title,h3.Review_character_name{
 	line-height:36px;
 	font-weight:bold;
 	background:url(Image/Trans/Green_50.png);
+	box-shadow:2px 2px 10px #666;
+}
+
+h4.Review_title{
+	background:url(Image/Trans/Green_50.png);
 }
 
 h3.Review_character_name{
+	background:url(Image/Trans/Yellow_50.png);
 	margin-left:15px;
 }
 
-.Review_character{
-
-	margin-left:10px;
+/*--- Character special --------------------------------------*/
+.character_title{
+	border-radius:5px;
+	
 }
 
-.Anime_SS{
-	float:left;
-	margin-left:30px;
+.Review_character{
+	margin-left:10px;
 }
 
 .SS_wrapper{
 	overflow:hidden;
 }
+
+.Screenshot{
+	float:left;
+	margin-left:30px;
+}
+
+.Screenshot img{
+	box-shadow:3px 3px 10px #666;
+}
+
+
+

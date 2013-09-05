@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-	$(".Anime_SS").fancybox({
+	$(".Screenshot").fancybox({
 		prevEffect	: 'fade',
 		nextEffect	: 'fade',
 		helpers	: {

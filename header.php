@@ -15,12 +15,10 @@
 
 <!-- Loading CSS files --------------------------------------------------------------------------------------------------------------------------------->
     
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSSReset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     
     <!-- Loading CSS file for fancybox -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    
     
     <!-- Loading CSS file for different time period -->
     
@@ -44,7 +42,7 @@
 <!-- Loading preload JS files -------------------------------------------------------------------------------------------------------------------------->
 
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+	<!--<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>-->
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/preload_function.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/animation.js" type="text/javascript"></script>
@@ -89,7 +87,7 @@
     </div>
     
     <div id="SiteTitle">
-    	<p id="SiteName"><a href="<?php home_url(); ?>">飛鳥谷<span class="ENG">-AsukaValley-</span></a></p>
+    	<p id="SiteName"><a href="http://www.asukavalley.com">飛鳥谷<span class="ENG">-AsukaValley-</span></a></p>
         <p id="SiteDescription"><?php bloginfo('description');?></p>
     </div>
     

@@ -2,7 +2,7 @@
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
-<div id="Left_column"><?php get_sidebar( 'intro_anime' ); ?></div>
+<div id="Left_column"><?php get_sidebar( 'intro_game' ); ?></div>
 <div id="Right_column"><?php get_sidebar( 'search' ); ?></div>
 
 <div id="Main_content">
