@@ -25,5 +25,4 @@
 </div> <!-- Main content END -->
 </div> <!-- Center END -->
 </div> <!-- Center wrapper END -->
-</div> <!-- NightMask END -->
 <?php get_footer(); ?>

@@ -60,6 +60,6 @@
 
 </div> <!-- Center END -->
 </div>
-</div> <!-- NightMask END -->
+
 <?php get_footer(); ?>
 

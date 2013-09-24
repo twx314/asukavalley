@@ -34,5 +34,4 @@ Template Name: Online game List Page
 </div> <!-- Center END -->
 </div> <!-- Center wrapper END -->
 
-</div> <!-- NightMask END -->
 <?php get_footer(); ?>

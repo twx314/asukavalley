@@ -8,6 +8,6 @@
     <h4 class="SidebarSubTitle">喜好</h4>
     <p>上線遊戲</p>
     <p>Galgame</p>
-    <p>察網頁</p>
+    <p>寫網頁</p>
 
 </div>
