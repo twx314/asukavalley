@@ -2,9 +2,8 @@
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
-<div id="Left_column"><?php get_sidebar( 'intro_home' ); ?></div>
-<div id="Right_column"><?php get_sidebar( 'search' ); ?></div>
-<div id="Main_content">
+<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?></div>
+<div id="OLG_Main_content">
 
 <div class="ContentSetting"> 
 	<h1 class="ContentTitle">Title</h1>

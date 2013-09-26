@@ -6,7 +6,7 @@
     <p>飛鳥一郎</p>
     
     <h4 class="SidebarSubTitle">喜好</h4>
-    <p>上線遊戲</p>
+    <p>線上遊戲</p>
     <p>Galgame</p>
     <p>寫網頁</p>
 

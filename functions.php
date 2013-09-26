@@ -67,7 +67,18 @@ function my_register_sidebars() {
 			'after_title' => '</h3>'
 		)
 	);
-	
+
+	register_sidebar(
+		array(
+			'id' => 'Kingdom_Knight_sidebar',
+			'name' => 'Kingdom_Knight_sidebar',
+			'description' => 'Sidebar for Kingdom Knight pages' ,
+			'before_widget' => '<div>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		)
+	);	
 }
 
 /* function to replace [...] in   the_excerpt()   to "read the full article" */

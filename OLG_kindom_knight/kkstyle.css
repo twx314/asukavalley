@@ -1,0 +1,61 @@
+/*
+	CSS for Kingdom Knight page
+*/
+
+/*=== Sidebar ======================================================================*/
+#kklogo{
+	background-image:url(Images/kklogo.png);
+	width:150px;
+	height:100px;
+	margin: 0px 25px 20px 15px;
+}
+
+h3.SidebarMenuTitle{
+	padding-left:5px;
+	margin:10px auto;
+	border-radius:5px;
+	font-size:18px;
+	line-height:30px;
+	font-weight:bold;
+	background:url(../Image/Trans/Green_50.png);
+	box-shadow:2px 2px 10px #666;
+}
+
+#kksidebar li{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+#kksidebar h4{
+	text-indent:10px;
+	margin-bottom:5px;
+}
+#kknews_wrapper{
+	width:700px;
+	margin:20px auto;
+	padding:20px;
+	background:url(../Image/Trans/Green_33.png);
+	box-shadow:2px 2px 10px #666;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+}
+
+.kknews{
+	margin:5px auto;
+}
+
+.kknews a{
+	cursor:pointer;
+	color:#0033FF;
+	text-decoration:underline;
+}
+
+.new_post_frame{
+	display:none;
+	margin:10px;
+	padding:10px;
+	line-height:1.25em;
+	vertical-align:central;
+	background:url(../Image/Trans/White_50.png);
+	border-radius: 10px;
+	-moz-border-radius:10px;
+}
