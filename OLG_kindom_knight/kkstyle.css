@@ -2,33 +2,35 @@
 	CSS for Kingdom Knight page
 */
 
+/*=== Basic CSS ====================================================================*/
+
 /*=== Sidebar ======================================================================*/
 #kklogo{
-	background-image:url(Images/kklogo.png);
 	width:150px;
 	height:100px;
 	margin: 0px 25px 20px 15px;
 }
 
-h3.SidebarMenuTitle{
+h4.SidebarMenuTitle{
 	padding-left:5px;
 	margin:10px auto;
 	border-radius:5px;
 	font-size:18px;
 	line-height:30px;
-	font-weight:bold;
+	font-weight:600;
 	background:url(../Image/Trans/Green_50.png);
 	box-shadow:2px 2px 10px #666;
 }
 
-#kksidebar li{
-	list-style-type:circle;
-	list-style-position:inside;
+#kksidebar h5:before{
+	content:"○ ";
 }
-#kksidebar h4{
+#kksidebar h5{
 	text-indent:10px;
 	margin-bottom:5px;
 }
+
+/*=== Front page (News) ==============================================================*/
 #kknews_wrapper{
 	width:700px;
 	margin:20px auto;
@@ -59,3 +61,196 @@ h3.SidebarMenuTitle{
 	border-radius: 10px;
 	-moz-border-radius:10px;
 }
+
+/*=== Table Setting ====================================================================*/
+.kktable{
+	width:700px;
+	margin:30px auto;
+	padding:10px;
+	background:url(../Image/Trans/White_50.png);
+	box-shadow:2px 2px 10px #666;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+}
+
+.kktable th{
+	background:url(../Image/Trans/MixGreen_50.png);
+	padding:5px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+}
+
+.kktable td{
+	text-align:center;
+	padding:3px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+}
+
+.kktable tr:nth-of-type(2n+3){
+	background:url(../Image/Trans/Grey_50.png);
+}
+
+.kktable tr:hover{
+	background:url(../Image/Trans/Yellow_75.png);
+}
+
+.kktable caption{
+	margin-bottom:10px;
+	font-size:28px;
+	font-weight:600;
+	text-align:left;
+}
+/*=== Commander skill (Ability) ========================================================*/
+#kktable_ability h3{
+	position:relative;
+	top:40px;
+	left:80px;
+	width:200px;
+}
+#kktable_ability #col_1{width:15%;}
+#kktable_ability #col_2{width:15%;}
+#kktable_ability #col_3{width:70%;}
+
+#kktable_ability div{height:75px;}
+.cmdskillimage_ability{background:url(Images/cmdskilllist.png);}
+#cmdskill_1{width:68px; background-position:0 0;}
+#cmdskill_2{width:73px; background-position:-68px 0;}
+#cmdskill_3{width:69px; background-position:-141px 0;}
+#cmdskill_4{width:69px; background-position:-210px 0;}
+#cmdskill_5{width:69px; background-position:-279px 0;}
+#cmdskill_6{width:65px; background-position:-348px 0;}
+#cmdskill_7{width:70px; background-position:-413px 0;}
+#cmdskill_8{width:65px; background-position:-485px 0;}
+#cmdskill_9{width:69px; background-position:-550px 0;}
+#cmdskill_10{width:69px; background-position:-619px 0;}
+#cmdskill_11{width:73px; background-position:-688px 0;}
+#cmdskill_12{width:71px; background-position:-761px 0;}
+#cmdskill_13{width:71px; background-position:-832px 0;}
+#cmdskill_14{width:71px; background-position:-903px 0;}
+#cmdskill_15{width:66px; background-position:-974px 0;}
+#cmdskill_62{width:70px; background-position:-1040px 0;}
+
+/*=== Commander skill (Passive) ========================================================*/
+#kktable_passive h3{
+	position:relative;
+	top:40px;
+	left:80px;
+	width:200px;
+}
+
+#kktable_passive span{
+	font-size:12px !important;
+	font-weight:normal !important;
+	position:relative;
+	top:40px;
+	left:80px;
+	width:200px;
+}
+
+#kktable_passive #col_1{width:9%;}
+#kktable_passive #col_2{width:9%;}
+#kktable_passive #col_3{width:80%;}
+
+.kkskill_subtitle{
+	width:750px;
+	margin:20px auto 10px;
+	padding:5px 15px;
+	border-radius:5px;
+	font-size:20px;
+	line-height:36px;
+	background:url(../Image/Trans/Green_50.png);
+	box-shadow:2px 2px 10px #666;
+	font-weight:600;
+}
+
+.kkskill_description{
+	width:680px;
+	margin:30px auto;
+	padding:10px;
+	background:url(../Image/Trans/White_50.png);
+	box-shadow:2px 2px 10px #666;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	line-height:1.5em;
+}
+
+.kkskill_description li{
+	list-style-type:circle;
+	list-style-position:inside;
+}
+
+.cmdskillimage_passive{background:url(Images/cmdskilllist2.png);height:74px;}
+#cmdskill_16{width:65px; background-position:0 0;}
+#cmdskill_17{width:69px; background-position:-66px 0;}
+#cmdskill_18{width:67px; background-position:-136px 0;}
+#cmdskill_19{width:71px; background-position:-203px 0;}
+#cmdskill_20{width:65px; background-position:-275px 0;}
+#cmdskill_21{width:66px; background-position:-341px 0;}
+#cmdskill_22{width:66px; background-position:-407px 0;}
+#cmdskill_23{width:72px; background-position:-474px 0;}
+#cmdskill_24{width:67px; background-position:-547px 0;}
+#cmdskill_25{width:65px; background-position:-615px 0;}
+#cmdskill_26{width:65px; background-position:-681px 0;}
+#cmdskill_27{width:64px; background-position:-747px 0;}
+#cmdskill_28{width:70px; background-position:-811px 0;}
+#cmdskill_29{width:66px; background-position:-881px 0;}
+#cmdskill_30{width:66px; background-position:-947px 0;}
+#cmdskill_31{width:67px; background-position:-1014px 0;}
+#cmdskill_32{width:70px; background-position:-1081px 0;}
+#cmdskill_33{width:65px; background-position:-1151px 0;}
+
+/*=== Commander skill (Active) ========================================================*/
+#kktable_active h3{
+	line-height:20px;
+}
+
+#kktable_active span{
+	font-size:14px !important;
+	font-weight:normal !important;
+}
+
+.kknameblock{
+	display:inline-block;
+}
+
+#kktable_active #col_1{width:9%;}
+#kktable_active #col_2{width:9%;}
+#kktable_active #col_3{width:80%;}
+
+.cmdskillimage_active{
+	background:url(Images/cmdskilllist3.png);
+	height:75px; 
+	margin-right:10px;
+	display:inline-block;
+}
+
+#cmdskill_34{width:66px; background-position:0 0;}
+#cmdskill_35{width:70px; background-position:-66px 0;}
+#cmdskill_36{width:74px; background-position:-136px 0;}
+#cmdskill_37{width:72px; background-position:-210px 0;}
+#cmdskill_38{width:73px; background-position:-282px 0;}
+#cmdskill_39{width:72px; background-position:-355px 0;}
+#cmdskill_40{width:71px; background-position:-427px 0;}
+#cmdskill_41{width:64px; background-position:-498px 0;}
+#cmdskill_42{width:73px; background-position:-563px 0;}
+#cmdskill_43{width:72px; background-position:-636px 0;}
+#cmdskill_44{width:72px; background-position:-709px 0;}
+#cmdskill_45{width:76px; background-position:-781px 0;}
+#cmdskill_46{width:67px; background-position:-856px 0;}
+#cmdskill_47{width:74px; background-position:-923px 0;}
+#cmdskill_48{width:74px; background-position:-997px 0;}
+#cmdskill_49{width:70px; background-position:-1070px 0;}
+#cmdskill_50{width:70px; background-position:-1139px 0;}
+#cmdskill_51{width:66px; background-position:-1209px 0;}
+#cmdskill_52{width:65px; background-position:-1276px 0;}
+#cmdskill_53{width:69px; background-position:-1340px 0;}
+#cmdskill_54{width:69px; background-position:-1408px 0;}
+#cmdskill_55{width:71px; background-position:-1477px 0;}
+#cmdskill_56{width:71px; background-position:-1548px 0;}
+#cmdskill_57{width:66px; background-position:-1619px 0;}
+#cmdskill_58{width:70px; background-position:-1684px 0;}
+#cmdskill_59{width:71px; background-position:-1754px 0;}
+#cmdskill_60{width:65px; background-position:-1825px 0;}
+#cmdskill_61{width:69px; background-position:-1890px 0;}
+#cmdskill_63{width:70px; background-position:-1959px 0;}

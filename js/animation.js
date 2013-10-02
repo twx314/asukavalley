@@ -1,5 +1,3 @@
-// JavaScript Document
-
 $(document).ready(function(){
 	
 	function Cloub_1_anime()
@@ -23,4 +21,6 @@ $(document).ready(function(){
 	Cloub_1_anime();
 	Cloub_2_anime();
 	Cloub_3_anime();
+
 });
+
