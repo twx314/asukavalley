@@ -73,7 +73,7 @@
 </head>
 <body>
 	<div id="Sitewrapper">
-<header>
+<header id="Mainheader">
 	
 	<div id="header_BG">
     	<div id="Star"></div>

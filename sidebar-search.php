@@ -1,4 +1,4 @@
-<div class="BasicSetting">
+<div class="BasicSetting sidebar">
 	<h3 class="SidebarTitle">站內搜尋</h3>
     <hr/>
 		<?php dynamic_sidebar( 'search' ); ?>

@@ -8,7 +8,7 @@ Template Name: HomePage
 <div id="center_wrapper">
 <div id="center">
 <div id="Left_column"><?php get_sidebar( 'intro_home' ); ?></div>
-<div id="Right_column"><?php get_sidebar( 'search' ); ?></div>
+<div id="Right_column"><?php get_sidebar( 'search' ); ?><?php get_sidebar( 'Chitika' ); ?></div>
 <div id="Main_content">
 
 <!-- Anime News --------------------------------------------------------------------------------------------------->

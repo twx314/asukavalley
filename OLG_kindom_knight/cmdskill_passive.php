@@ -5,11 +5,11 @@ Template Name: Kingdom Knight - commander skill (passive)
 ?>
 
 <?php get_header('kk'); ?>
-<style type="text/css">#kk2_2:before{content:"● " !important;}</style>
+<style type="text/css">#kk2_2:before{content:"● " !important;} #Mainnav_olg a{color:red !important;}</style>
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
-<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?></div>
+<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?><?php get_sidebar( 'Chitika' ); ?></div>
 <div id="OLG_Main_content">
 
 <div class="ContentSetting"> 

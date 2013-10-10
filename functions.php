@@ -79,6 +79,18 @@ function my_register_sidebars() {
 			'after_title' => '</h3>'
 		)
 	);	
+	
+	register_sidebar(
+		array(
+			'id' => 'Chitika',
+			'name' => 'Chitika',
+			'description' => 'Ad area for Chitika' ,
+			'before_widget' => '<div>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		)
+	);	
 }
 
 /* function to replace [...] in   the_excerpt()   to "read the full article" */

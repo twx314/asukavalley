@@ -5,11 +5,11 @@ Template Name: Kingdom Knight - commander skill (active)
 ?>
 
 <?php get_header('kk'); ?>
-<style type="text/css">#kk2_3:before{content:"● " !important;}</style>
+<style type="text/css">#kk2_3:before{content:"● " !important;} #Mainnav_olg a{color:red !important;}</style>
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
-<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?></div>
+<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?><?php get_sidebar( 'Chitika' ); ?></div>
 <div id="OLG_Main_content">
 
 <div class="ContentSetting"> 
@@ -133,7 +133,7 @@ for ($x=1; $x<=12; $x++)
 	echo "<table class='kktable' id='kktable_active'>";
 	echo "<caption>";
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
-	echo "<div class='kknameblock'>";
+	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
 	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
 	echo "</div>";
@@ -167,7 +167,7 @@ for ($x=1; $x<=4; $x++)
 	echo "<table class='kktable' id='kktable_active'>";
 	echo "<caption>";
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
-	echo "<div class='kknameblock'>";
+	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
 	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
 	echo "</div>";
@@ -201,7 +201,7 @@ for ($x=1; $x<=4; $x++)
 	echo "<table class='kktable' id='kktable_active'>";
 	echo "<caption>";
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
-	echo "<div class='kknameblock'>";
+	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
 	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
 	echo "</div>";
@@ -235,7 +235,7 @@ for ($x=1; $x<=6; $x++)
 	echo "<table class='kktable' id='kktable_active'>";
 	echo "<caption>";
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
-	echo "<div class='kknameblock'>";
+	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
 	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
 	echo "</div>";
@@ -269,7 +269,7 @@ for ($x=1; $x<=3; $x++)
 	echo "<table class='kktable' id='kktable_active'>";
 	echo "<caption>";
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
-	echo "<div class='kknameblock'>";
+	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
 	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
 	echo "</div>";

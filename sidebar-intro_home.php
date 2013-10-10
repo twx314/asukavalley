@@ -1,4 +1,4 @@
-<div class="SB_Intro BasicSetting">
+<div class="SB_Intro BasicSetting sidebar">
 	<h3 class="SidebarTitle">自我紹介</h3>
     <div id="Mypicture"></div>
     
