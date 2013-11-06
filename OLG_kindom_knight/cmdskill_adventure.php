@@ -170,8 +170,8 @@ adventure_name;
 ");
 ?>
 
-	<div class="kkadv_description">
-    	<div class="kkadv_description_title">目錄</div>
+	<div class="kkadv_description kk_description">
+    	<div class="kk_description_title">目錄</div>
         <ul>
 		<?php        
 			while($row = mysql_fetch_array($list))        	

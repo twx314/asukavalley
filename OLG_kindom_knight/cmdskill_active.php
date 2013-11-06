@@ -50,6 +50,23 @@ $Type1_skill[9] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_poin
 $Type1_skill[10] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 57 ORDER BY skill_subid,skill_lv");
 $Type1_skill[11] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 58 ORDER BY skill_subid,skill_lv");
 $Type1_skill[12] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 63 ORDER BY skill_subid,skill_lv");
+$Type1_skill[13] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 78 ORDER BY skill_subid,skill_lv");
+$Type1_skill[14] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 79 ORDER BY skill_subid,skill_lv");
+$Type1_skill[15] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 80 ORDER BY skill_subid,skill_lv");
+$Type1_skill[16] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 81 ORDER BY skill_subid,skill_lv");
+$Type1_skill[17] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 84 ORDER BY skill_subid,skill_lv");
+$Type1_skill[18] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 85 ORDER BY skill_subid,skill_lv");
+$Type1_skill[19] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 88 ORDER BY skill_subid,skill_lv");
+$Type1_skill[20] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 90 ORDER BY skill_subid,skill_lv");
+$Type1_skill[21] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 91 ORDER BY skill_subid,skill_lv");
+$Type1_skill[22] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 92 ORDER BY skill_subid,skill_lv");
+$Type1_skill[23] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 96 ORDER BY skill_subid,skill_lv");
+$Type1_skill[24] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 99 ORDER BY skill_subid,skill_lv");
+$Type1_skill[25] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 101 ORDER BY skill_subid,skill_lv");
+
+$Type1_skill[26] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 102 ORDER BY skill_subid,skill_lv");
+$Type1_skill[27] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 103 ORDER BY skill_subid,skill_lv");
+$Type1_skill[28] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 107 ORDER BY skill_subid,skill_lv");
 
 $Type1_skill_name[1] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 45");
 $Type1_skill_name[2] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 46");
@@ -63,28 +80,65 @@ $Type1_skill_name[9] = mysql_query("SELECT skill_name,skill_subid,skill_launch,s
 $Type1_skill_name[10] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 57");
 $Type1_skill_name[11] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 58");
 $Type1_skill_name[12] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 63");
+$Type1_skill_name[13] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 78");
+$Type1_skill_name[14] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 79");
+$Type1_skill_name[15] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 80");
+$Type1_skill_name[16] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 81");
+$Type1_skill_name[17] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 84");
+$Type1_skill_name[18] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 85");
+$Type1_skill_name[19] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 88");
+$Type1_skill_name[20] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 90");
+$Type1_skill_name[21] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 91");
+$Type1_skill_name[22] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 92");
+$Type1_skill_name[23] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 96");
+$Type1_skill_name[24] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 99");
+$Type1_skill_name[25] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 101");
+
+$Type1_skill_name[26] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 102");
+$Type1_skill_name[27] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 103");
+$Type1_skill_name[28] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 107");
 
 /*=== 騎士技 (Type 2)===========================================================*/
 $Type2_skill[1] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 52 ORDER BY skill_subid,skill_lv");
 $Type2_skill[2] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 53 ORDER BY skill_subid,skill_lv");
 $Type2_skill[3] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 54 ORDER BY skill_subid,skill_lv");
 $Type2_skill[4] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 61 ORDER BY skill_subid,skill_lv");
+$Type2_skill[5] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 82 ORDER BY skill_subid,skill_lv");
+$Type2_skill[6] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 83 ORDER BY skill_subid,skill_lv");
+$Type2_skill[7] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 89 ORDER BY skill_subid,skill_lv");
+$Type2_skill[8] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 93 ORDER BY skill_subid,skill_lv");
+$Type2_skill[9] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 94 ORDER BY skill_subid,skill_lv");
+$Type2_skill[10] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 95 ORDER BY skill_subid,skill_lv");
+$Type2_skill[11] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 97 ORDER BY skill_subid,skill_lv");
+$Type2_skill[12] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 104 ORDER BY skill_subid,skill_lv");
+$Type2_skill[13] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 105 ORDER BY skill_subid,skill_lv");
 
 $Type2_skill_name[1] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 52");
 $Type2_skill_name[2] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 53");
 $Type2_skill_name[3] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 54");
 $Type2_skill_name[4] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 61");
+$Type2_skill_name[5] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 82");
+$Type2_skill_name[6] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 83");
+$Type2_skill_name[7] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 89");
+$Type2_skill_name[8] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 93");
+$Type2_skill_name[9] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 94");
+$Type2_skill_name[10] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 95");
+$Type2_skill_name[11] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 97");
+$Type2_skill_name[12] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 104");
+$Type2_skill_name[13] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 105");
 
 /*=== 飛行技 (Type 3)===========================================================*/
 $Type3_skill[1] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 36 ORDER BY skill_subid,skill_lv");
 $Type3_skill[2] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 37 ORDER BY skill_subid,skill_lv");
 $Type3_skill[3] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 40 ORDER BY skill_subid,skill_lv");
 $Type3_skill[4] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 41 ORDER BY skill_subid,skill_lv");
+$Type3_skill[5] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 106 ORDER BY skill_subid,skill_lv");
 
 $Type3_skill_name[1] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 36");
 $Type3_skill_name[2] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 37");
 $Type3_skill_name[3] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 40");
 $Type3_skill_name[4] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 41");
+$Type3_skill_name[5] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 106");
 
 /*=== 飛騎技 (Type 4)===========================================================*/
 $Type4_skill[1] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 38 ORDER BY skill_subid,skill_lv");
@@ -93,6 +147,9 @@ $Type4_skill[3] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_poin
 $Type4_skill[4] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 43 ORDER BY skill_subid,skill_lv");
 $Type4_skill[5] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 44 ORDER BY skill_subid,skill_lv");
 $Type4_skill[6] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 60 ORDER BY skill_subid,skill_lv");
+$Type4_skill[7] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 86 ORDER BY skill_subid,skill_lv");
+$Type4_skill[8] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 98 ORDER BY skill_subid,skill_lv");
+$Type4_skill[9] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 100 ORDER BY skill_subid,skill_lv");
 
 $Type4_skill_name[1] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 38");
 $Type4_skill_name[2] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 39");
@@ -100,15 +157,22 @@ $Type4_skill_name[3] = mysql_query("SELECT skill_name,skill_subid,skill_launch,s
 $Type4_skill_name[4] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 43");
 $Type4_skill_name[5] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 44");
 $Type4_skill_name[6] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 60");
+$Type4_skill_name[7] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 86");
+$Type4_skill_name[8] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 98");
+$Type4_skill_name[9] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 100");
 
 /*=== 力士技 (Type 5)===========================================================*/
 $Type5_skill[1] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 34 ORDER BY skill_subid,skill_lv");
 $Type5_skill[2] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 35 ORDER BY skill_subid,skill_lv");
 $Type5_skill[3] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 59 ORDER BY skill_subid,skill_lv");
+$Type5_skill[4] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 87 ORDER BY skill_subid,skill_lv");
+$Type5_skill[5] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 108 ORDER BY skill_subid,skill_lv");
 
 $Type5_skill_name[1] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 34");
 $Type5_skill_name[2] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 35");
 $Type5_skill_name[3] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 59");
+$Type5_skill_name[4] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 87");
+$Type5_skill_name[5] = mysql_query("SELECT skill_name,skill_subid,skill_launch,skill_delay FROM wp_valley.kk_commander_skill WHERE skill_subid = 108");
 
 ?>
 	<div class="kkskill_description">
@@ -126,7 +190,7 @@ $Type5_skill_name[3] = mysql_query("SELECT skill_name,skill_subid,skill_launch,s
 <h2 id="type1" class="kkskill_subtitle">步戰型技能</h2>
 	
 <?php
-for ($x=1; $x<=12; $x++)
+for ($x=1; $x<=28; $x++)
 {
 	$namerow = mysql_fetch_array($Type1_skill_name[$x]);
 	
@@ -135,7 +199,12 @@ for ($x=1; $x<=12; $x++)
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
 	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
-	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
+	
+	if ($namerow['skill_launch']>0)
+		{	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";}
+	else
+		{	echo "<span>開場技能</span>";}
+		
 	echo "</div>";
 	echo "</caption>";
 
@@ -160,7 +229,7 @@ while($row = mysql_fetch_array($Type1_skill[$x]))
 <h2 id="type2" class="kkskill_subtitle">騎士型技能</h2>
 	
 <?php
-for ($x=1; $x<=4; $x++)
+for ($x=1; $x<=13; $x++)
 {
 	$namerow = mysql_fetch_array($Type2_skill_name[$x]);
 	
@@ -169,7 +238,11 @@ for ($x=1; $x<=4; $x++)
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
 	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
-	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
+	if ($namerow['skill_launch']>0)
+		{	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";}
+	else
+		{	echo "<span>開場技能</span>";}
+		
 	echo "</div>";
 	echo "</caption>";
 	
@@ -194,7 +267,7 @@ while($row = mysql_fetch_array($Type2_skill[$x]))
 <h2 id="type3" class="kkskill_subtitle">飛行型技能</h2>
 	
 <?php
-for ($x=1; $x<=4; $x++)
+for ($x=1; $x<=5; $x++)
 {
 	$namerow = mysql_fetch_array($Type3_skill_name[$x]);
 	
@@ -203,7 +276,11 @@ for ($x=1; $x<=4; $x++)
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
 	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
-	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
+	if ($namerow['skill_launch']>0)
+		{	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";}
+	else
+		{	echo "<span>開場技能</span>";}
+		
 	echo "</div>";
 	echo "</caption>";
 	
@@ -228,7 +305,7 @@ while($row = mysql_fetch_array($Type3_skill[$x]))
 <h2 id="type4" class="kkskill_subtitle">飛騎型技能</h2>
 	
 <?php
-for ($x=1; $x<=6; $x++)
+for ($x=1; $x<=9; $x++)
 {
 	$namerow = mysql_fetch_array($Type4_skill_name[$x]);
 	
@@ -237,7 +314,11 @@ for ($x=1; $x<=6; $x++)
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
 	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
-	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
+	if ($namerow['skill_launch']>0)
+		{	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";}
+	else
+		{	echo "<span>開場技能</span>";}
+		
 	echo "</div>";
 	echo "</caption>";
 	
@@ -262,7 +343,7 @@ while($row = mysql_fetch_array($Type4_skill[$x]))
 <h2 id="type5" class="kkskill_subtitle">力士型技能</h2>
 	
 <?php
-for ($x=1; $x<=3; $x++)
+for ($x=1; $x<=5; $x++)
 {
 	$namerow = mysql_fetch_array($Type5_skill_name[$x]);
 	
@@ -271,7 +352,11 @@ for ($x=1; $x<=3; $x++)
 	echo "<div class='cmdskillimage_active' id='cmdskill_".$namerow['skill_subid']."'></div>";	
 	echo "<div class='kknameblock_act'>";
 	echo "<h3>".$namerow['skill_name']."</h3>";
-	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";
+	if ($namerow['skill_launch']>0)
+		{	echo "<span>戰法發動: 第 ".$namerow['skill_launch']." 回合， 施展週期:每 ".$namerow['skill_delay']." 回合</span>";}
+	else
+		{	echo "<span>開場技能</span>";}
+		
 	echo "</div>";
 	echo "</caption>";
 	
@@ -292,7 +377,6 @@ while($row = mysql_fetch_array($Type5_skill[$x]))
 	echo "</table>";
 }
 
-	
 mysql_close($con);
 ?>
     

@@ -119,6 +119,14 @@ hr.solid{
 .inline{
 	display:inline;
 }
+
+.floatL{
+	float:left;
+}
+.floatR{
+	float:right;
+}
+
 /*================================================================================================================*/
 
 /*=== Wordpress backbone =========================================================================================*/
@@ -583,6 +591,17 @@ h3.Review_character_name{
 	box-shadow:3px 3px 10px #666;
 }
 
+.In_Paragraph_screenshot_floatR{
+	float:right !important;
+	margin-right:15px; 
+	margin-left:0px !important;
+}
+
+.In_Paragraph_screenshot_floatL{
+	float:left !important;
+	margin-right:15px; 
+	margin-left:0px !important;
+}
 
 /*=== OLG page ===========================================================================================*/
 #OLGList{

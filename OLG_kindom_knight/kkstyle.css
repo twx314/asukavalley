@@ -30,6 +30,53 @@ h4.SidebarMenuTitle{
 	margin-bottom:5px;
 }
 
+.kksubtitle{
+	width:93%;
+	min-width:750px;
+	margin:20px auto 10px;
+	padding:5px 15px;
+	border-radius:5px;
+	font-size:20px;
+	line-height:36px;
+	background:url(../Image/Trans/Green_50.png);
+	box-shadow:2px 2px 10px #666;
+	font-weight:600;
+}
+
+.kk_description{
+	margin:30px auto;
+	padding:10px;
+	background:url(../Image/Trans/White_50.png);
+	box-shadow:2px 2px 10px #666;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	line-height:1.5em;
+}
+
+.kk_description_title{
+	margin-bottom:15px;
+	padding:10px;
+	background:url(../Image/Trans/Green_33.png);
+	box-shadow:2px 2px 10px #666;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	line-height:1.5em;
+	text-align:center;
+	font-weight:600;
+}
+
+.kk_description li{
+	margin-left:40px;
+	list-style-type:circle;
+	list-style-position:inside;
+}
+
+.backtotop{
+	margin-left:30px;
+	font-size:14px;
+	float:right;
+}
+
 /*=== Front page (News) ==============================================================*/
 #kknews_wrapper{
 	width:700px;
@@ -64,7 +111,8 @@ h4.SidebarMenuTitle{
 
 /*=== Table Setting ====================================================================*/
 .kktable{
-	width:700px;
+	width:87%;
+	min-width:700px;
 	margin:30px auto;
 	padding:10px;
 	background:url(../Image/Trans/White_50.png);
@@ -113,23 +161,38 @@ h4.SidebarMenuTitle{
 #kktable_ability #col_3{width:70%;}
 
 #kktable_ability div{height:75px;}
-.cmdskillimage_ability{background:url(Images/cmdskilllist.png);}
-#cmdskill_1{width:68px; background-position:0 0;}
-#cmdskill_2{width:73px; background-position:-68px 0;}
-#cmdskill_3{width:69px; background-position:-141px 0;}
-#cmdskill_4{width:69px; background-position:-210px 0;}
-#cmdskill_5{width:69px; background-position:-279px 0;}
-#cmdskill_6{width:65px; background-position:-348px 0;}
-#cmdskill_7{width:70px; background-position:-413px 0;}
-#cmdskill_8{width:65px; background-position:-485px 0;}
-#cmdskill_9{width:69px; background-position:-550px 0;}
-#cmdskill_10{width:69px; background-position:-619px 0;}
-#cmdskill_11{width:73px; background-position:-688px 0;}
-#cmdskill_12{width:71px; background-position:-761px 0;}
-#cmdskill_13{width:71px; background-position:-832px 0;}
-#cmdskill_14{width:71px; background-position:-903px 0;}
-#cmdskill_15{width:66px; background-position:-974px 0;}
-#cmdskill_62{width:70px; background-position:-1040px 0;}
+.cmdskillimage_ability{background:url(Images/cmdskilllist.png); width:75px;}
+#cmdskill_1{background-position:0 0;}
+#cmdskill_2{background-position:-75px 0;}
+#cmdskill_3{background-position:-150px 0;}
+#cmdskill_4{background-position:-225px 0;}
+#cmdskill_5{background-position:-300px 0;}
+#cmdskill_6{background-position:-375px 0;}
+#cmdskill_7{background-position:-450px 0;}
+#cmdskill_8{background-position:-525px 0;}
+#cmdskill_9{background-position:-600px 0;}
+#cmdskill_10{background-position:-675px 0;}
+#cmdskill_11{background-position:-750px 0;}
+#cmdskill_12{background-position:-825px 0;}
+#cmdskill_13{background-position:-900px 0;}
+#cmdskill_14{background-position:-975px 0;}
+#cmdskill_15{background-position:-1050px 0;}
+#cmdskill_62{background-position:-1125px 0;}
+
+#cmdskill_64{background-position:-75px 0;}
+#cmdskill_65{background-position:-150px 0;}
+#cmdskill_66{background-position:-225px 0;}
+#cmdskill_67{background-position:-300px 0;}
+#cmdskill_68{background-position:-375px 0;}
+#cmdskill_69{background-position:-450px 0;}
+#cmdskill_70{background-position:-525px 0;}
+#cmdskill_71{background-position:-600px 0;}
+#cmdskill_72{background-position:-675px 0;}
+#cmdskill_73{background-position:-750px 0;}
+#cmdskill_74{background-position:-825px 0;}
+#cmdskill_75{background-position:-900px 0;}
+#cmdskill_76{background-position:-975px 0;}
+#cmdskill_77{background-position:-1050px 0;}
 
 /*=== Commander skill (Passive) ========================================================*/
 #kktable_passive h3{
@@ -153,7 +216,8 @@ h4.SidebarMenuTitle{
 #kktable_passive #col_3{width:80%;}
 
 .kkskill_subtitle{
-	width:750px;
+	width:93%;
+	min-width:750px;
 	margin:20px auto 10px;
 	padding:5px 15px;
 	border-radius:5px;
@@ -180,25 +244,25 @@ h4.SidebarMenuTitle{
 	list-style-position:inside;
 }
 
-.cmdskillimage_passive{background:url(Images/cmdskilllist2.png);height:74px;}
-#cmdskill_16{width:65px; background-position:0 0;}
-#cmdskill_17{width:69px; background-position:-66px 0;}
-#cmdskill_18{width:67px; background-position:-136px 0;}
-#cmdskill_19{width:71px; background-position:-203px 0;}
-#cmdskill_20{width:65px; background-position:-275px 0;}
-#cmdskill_21{width:66px; background-position:-341px 0;}
-#cmdskill_22{width:66px; background-position:-407px 0;}
-#cmdskill_23{width:72px; background-position:-474px 0;}
-#cmdskill_24{width:67px; background-position:-547px 0;}
-#cmdskill_25{width:65px; background-position:-615px 0;}
-#cmdskill_26{width:65px; background-position:-681px 0;}
-#cmdskill_27{width:64px; background-position:-747px 0;}
-#cmdskill_28{width:70px; background-position:-811px 0;}
-#cmdskill_29{width:66px; background-position:-881px 0;}
-#cmdskill_30{width:66px; background-position:-947px 0;}
-#cmdskill_31{width:67px; background-position:-1014px 0;}
-#cmdskill_32{width:70px; background-position:-1081px 0;}
-#cmdskill_33{width:65px; background-position:-1151px 0;}
+.cmdskillimage_passive{background:url(Images/cmdskilllist2.png);height:75px; width:75px;}
+#cmdskill_16{background-position:0 0;}
+#cmdskill_17{background-position:-75px 0;}
+#cmdskill_18{background-position:-150px 0;}
+#cmdskill_19{background-position:-225px 0;}
+#cmdskill_20{background-position:-300px 0;}
+#cmdskill_21{background-position:-375px 0;}
+#cmdskill_22{background-position:-450px 0;}
+#cmdskill_23{background-position:-525px 0;}
+#cmdskill_24{background-position:-600px 0;}
+#cmdskill_25{background-position:-675px 0;}
+#cmdskill_26{background-position:-750px 0;}
+#cmdskill_27{background-position:-825px 0;}
+#cmdskill_28{background-position:-900px 0;}
+#cmdskill_29{background-position:-975px 0;}
+#cmdskill_30{background-position:-1050px 0;}
+#cmdskill_31{background-position:-1125px 0;}
+#cmdskill_32{background-position:-1200px 0;}
+#cmdskill_33{background-position:-1275px 0;}
 
 /*=== Commander skill (Active) ========================================================*/
 #kktable_active h3{
@@ -220,70 +284,84 @@ h4.SidebarMenuTitle{
 
 .cmdskillimage_active{
 	background:url(Images/cmdskilllist3.png);
-	height:75px; 
+	width:75px;
+	height:73px; 
 	margin-right:10px;
 	display:inline-block;
 }
 
-#cmdskill_34{width:66px; background-position:0 0;}
-#cmdskill_35{width:70px; background-position:-66px 0;}
-#cmdskill_36{width:74px; background-position:-136px 0;}
-#cmdskill_37{width:72px; background-position:-210px 0;}
-#cmdskill_38{width:73px; background-position:-282px 0;}
-#cmdskill_39{width:72px; background-position:-355px 0;}
-#cmdskill_40{width:71px; background-position:-427px 0;}
-#cmdskill_41{width:64px; background-position:-498px 0;}
-#cmdskill_42{width:73px; background-position:-563px 0;}
-#cmdskill_43{width:72px; background-position:-636px 0;}
-#cmdskill_44{width:72px; background-position:-709px 0;}
-#cmdskill_45{width:76px; background-position:-781px 0;}
-#cmdskill_46{width:67px; background-position:-856px 0;}
-#cmdskill_47{width:74px; background-position:-923px 0;}
-#cmdskill_48{width:74px; background-position:-997px 0;}
-#cmdskill_49{width:70px; background-position:-1070px 0;}
-#cmdskill_50{width:70px; background-position:-1139px 0;}
-#cmdskill_51{width:66px; background-position:-1209px 0;}
-#cmdskill_52{width:65px; background-position:-1276px 0;}
-#cmdskill_53{width:69px; background-position:-1340px 0;}
-#cmdskill_54{width:69px; background-position:-1408px 0;}
-#cmdskill_55{width:71px; background-position:-1477px 0;}
-#cmdskill_56{width:71px; background-position:-1548px 0;}
-#cmdskill_57{width:66px; background-position:-1619px 0;}
-#cmdskill_58{width:70px; background-position:-1684px 0;}
-#cmdskill_59{width:71px; background-position:-1754px 0;}
-#cmdskill_60{width:65px; background-position:-1825px 0;}
-#cmdskill_61{width:69px; background-position:-1890px 0;}
-#cmdskill_63{width:70px; background-position:-1959px 0;}
+#cmdskill_34{background-position:0 0;}
+#cmdskill_35{background-position:-75px 0;}
+#cmdskill_36{background-position:-150px 0;}
+#cmdskill_37{background-position:-225px 0;}
+#cmdskill_38{background-position:-300px 0;}
+#cmdskill_39{background-position:-375px 0;}
+#cmdskill_40{background-position:-450px 0;}
+#cmdskill_41{background-position:-525px 0;}
+#cmdskill_42{background-position:-600px 0;}
+#cmdskill_43{background-position:-675px 0;}
+#cmdskill_44{background-position:-750px 0;}
+#cmdskill_45{background-position:-825px 0;}
+#cmdskill_46{background-position:-900px 0;}
+#cmdskill_47{background-position:-975px 0;}
+#cmdskill_48{background-position:-1050px 0;}
+#cmdskill_49{background-position:-1125px 0;}
+#cmdskill_50{background-position:-1200px 0;}
+#cmdskill_51{background-position:-1275px 0;}
+#cmdskill_52{background-position:-1350px 0;}
+#cmdskill_53{background-position:-1425px 0;}
+#cmdskill_54{background-position:-1500px 0;}
+#cmdskill_55{background-position:-1575px 0;}
+#cmdskill_56{background-position:-1650px 0;}
+#cmdskill_57{background-position:-1725px 0;}
+#cmdskill_58{background-position:-1800px 0;}
+#cmdskill_59{background-position:-1875px 0;}
+#cmdskill_60{background-position:-1950px 0;}
+#cmdskill_61{background-position:-2025px 0;}
+#cmdskill_63{background-position:-3750px 0;}
+#cmdskill_78{background-position:-2100px 0;}
+#cmdskill_79{background-position:-2175px 0;}
+#cmdskill_80{background-position:-2250px 0;}
+#cmdskill_81{background-position:-2325px 0;}
+#cmdskill_82{background-position:-2400px 0;}
+#cmdskill_83{background-position:-2475px 0;}
+#cmdskill_84{background-position:-2550px 0;}
+#cmdskill_85{background-position:-2625px 0;}
+#cmdskill_86{background-position:-2700px 0;}
+#cmdskill_87{background-position:-2775px 0;}
+#cmdskill_88{background-position:-2850px 0;}
+#cmdskill_89{background-position:-2925px 0;}
+#cmdskill_90{background-position:-3000px 0;}
+#cmdskill_91{background-position:-3075px 0;}
+#cmdskill_92{background-position:-3150px 0;}
+#cmdskill_93{background-position:-3225px 0;}
+#cmdskill_94{background-position:-3300px 0;}
+#cmdskill_95{background-position:-3375px 0;}
+#cmdskill_96{background-position:-3450px 0;}
+#cmdskill_97{background-position:-3525px 0;}
+#cmdskill_98{background-position:-1125px 0;}
+#cmdskill_99{background-position:-3600px 0;}
+#cmdskill_100{background-position:-750px 0;}
+#cmdskill_101{background-position:-3675px 0;}
 
+#cmdskill_108{background-position:-3825px 0;}
+
+#cmdskill_102{background-position:-3900px 0;}
+#cmdskill_103{background-position:-3975px 0;}
+#cmdskill_104{background-position:-4050px 0;}
+#cmdskill_105{background-position:-4125px 0;}
+#cmdskill_106{background-position:-4200px 0;}
+#cmdskill_107{background-position:-4200px 0;}
 
 /*=== Adventure page ===================================================================*/
 .kkadv_description{
 	width:400px;
-	margin:30px auto;
-	padding:10px;
-	background:url(../Image/Trans/White_50.png);
-	box-shadow:2px 2px 10px #666;
-	border-radius: 10px;
-	-moz-border-radius:10px;
-	line-height:1.5em;
 }
 
 .kkadv_description li{
 	margin-left:40px;
 	list-style-type:circle;
 	list-style-position:inside;
-}
-
-.kkadv_description_title{
-	margin-bottom:15px;
-	padding:10px;
-	background:url(../Image/Trans/Green_33.png);
-	box-shadow:2px 2px 10px #666;
-	border-radius: 10px;
-	-moz-border-radius:10px;
-	line-height:1.5em;
-	text-align:center;
-	font-weight:600;
 }
 
 .kkadventure{
@@ -451,3 +529,23 @@ h4.SidebarMenuTitle{
 #adventure_skill_63{width:47px;background-position:-2819px 0;}
 #adventure_skill_62{width:47px;background-position:-2867px 0;}
 #adventure_skill_0{width:47px;background-position:-2914px 0;}
+
+/*=== Accesory ===========================================================*/
+#acc_table{
+
+}
+.kkacc_description{
+	width:75%;
+	min-width:600px;
+
+}
+
+.kkacc_description_subtitle{
+	margin-top:10px;
+	margin-left:10px;
+	font-weight:600;
+}
+
+.kkacc_name{width:15%;}
+.kkacc_status{width:5%;}
+.kkacc_effect{width:50%;}

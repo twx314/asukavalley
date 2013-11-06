@@ -52,6 +52,20 @@ $result[13] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,sk
 $result[14] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 14 ORDER BY skill_subid,skill_lv");
 $result[15] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 15 ORDER BY skill_subid,skill_lv");
 $result[16] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 62 ORDER BY skill_subid,skill_lv");
+$result[17] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 64 ORDER BY skill_subid,skill_lv");
+$result[18] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 65 ORDER BY skill_subid,skill_lv");
+$result[19] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 66 ORDER BY skill_subid,skill_lv");
+$result[20] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 67 ORDER BY skill_subid,skill_lv");
+$result[21] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 68 ORDER BY skill_subid,skill_lv");
+$result[22] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 69 ORDER BY skill_subid,skill_lv");
+$result[23] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 70 ORDER BY skill_subid,skill_lv");
+$result[24] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 71 ORDER BY skill_subid,skill_lv");
+$result[25] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 72 ORDER BY skill_subid,skill_lv");
+$result[26] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 73 ORDER BY skill_subid,skill_lv");
+$result[27] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 74 ORDER BY skill_subid,skill_lv");
+$result[28] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 75 ORDER BY skill_subid,skill_lv");
+$result[29] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 76 ORDER BY skill_subid,skill_lv");
+$result[30] = mysql_query("SELECT skill_name,skill_lv,skill_subid,skill_point,skill_detail FROM wp_valley.kk_commander_skill WHERE skill_subid = 77 ORDER BY skill_subid,skill_lv");
 
 $skill_name[1] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 1");
 $skill_name[2] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 2");
@@ -69,8 +83,22 @@ $skill_name[13] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_c
 $skill_name[14] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 14");
 $skill_name[15] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 15");
 $skill_name[16] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 62");
+$skill_name[17] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 64");
+$skill_name[18] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 65");
+$skill_name[19] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 66");
+$skill_name[20] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 67");
+$skill_name[21] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 68");
+$skill_name[22] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 69");
+$skill_name[23] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 70");
+$skill_name[24] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 71");
+$skill_name[25] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 72");
+$skill_name[26] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 73");
+$skill_name[27] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 74");
+$skill_name[28] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 75");
+$skill_name[29] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 76");
+$skill_name[30] = mysql_query("SELECT skill_name,skill_subid FROM wp_valley.kk_commander_skill WHERE skill_subid = 77");
 
-for ($x=1; $x<=16; $x++)
+for ($x=1; $x<=30; $x++)
 {
 	$namerow = mysql_fetch_array($skill_name[$x]);
 	
