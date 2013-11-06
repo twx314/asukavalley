@@ -199,7 +199,7 @@ body{
 /*=== Header CSS =================================================================================================*/
 
 /*--- Valley background -------------------------------------------------*/
-#Mainheader{
+header{
 	margin:0 auto;
 	width:auto;
 	min-width:1200px;
@@ -411,10 +411,6 @@ footer{
 }
 
 /*=== Side bars ============================================================================================*/
-.sidebar{
-	margin-bottom:20px;
-}
-
 .SB_Intro p{
 	padding:5px 0 5px 10px;
 }
@@ -425,14 +421,6 @@ footer{
 	background:url(Image/Intro_pic.jpg);
 	width:150px;
 	height:150px;
-}
-
-.Chitika_ads{
-	margin:10px auto 0px;
-	border-radius:15px;
-	-moz-border-radius:15px;
-	text-align:center;
-	background-color:#FFF;
 }
 
 /*=== index.php CSS (homepage) ==============================================================================*/

@@ -1,10 +1,9 @@
 <?php get_header(); ?>
-<style type="text/css">#Mainnav_anime a{color:red !important;}</style>
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
 <div id="Left_column"><?php get_sidebar( 'intro_anime' ); ?></div>
-<div id="Right_column"><?php get_sidebar( 'search' ); ?><?php get_sidebar( 'Chitika' ); ?></div>
+<div id="Right_column"><?php get_sidebar( 'search' ); ?></div>
 
 <div id="Main_content">
 <div class="SingleContentSetting">

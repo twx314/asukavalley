@@ -274,7 +274,7 @@ h4.SidebarMenuTitle{
 	font-weight:normal !important;
 }
 
-.kknameblock_act{
+.kknameblock{
 	display:inline-block;
 }
 
@@ -290,6 +290,7 @@ h4.SidebarMenuTitle{
 	display:inline-block;
 }
 
+<<<<<<< HEAD
 #cmdskill_34{background-position:0 0;}
 #cmdskill_35{background-position:-75px 0;}
 #cmdskill_36{background-position:-150px 0;}
@@ -549,3 +550,34 @@ h4.SidebarMenuTitle{
 .kkacc_name{width:15%;}
 .kkacc_status{width:5%;}
 .kkacc_effect{width:50%;}
+=======
+#cmdskill_34{width:66px; background-position:0 0;}
+#cmdskill_35{width:70px; background-position:-66px 0;}
+#cmdskill_36{width:74px; background-position:-136px 0;}
+#cmdskill_37{width:72px; background-position:-210px 0;}
+#cmdskill_38{width:73px; background-position:-282px 0;}
+#cmdskill_39{width:72px; background-position:-355px 0;}
+#cmdskill_40{width:71px; background-position:-427px 0;}
+#cmdskill_41{width:64px; background-position:-498px 0;}
+#cmdskill_42{width:73px; background-position:-563px 0;}
+#cmdskill_43{width:72px; background-position:-636px 0;}
+#cmdskill_44{width:72px; background-position:-709px 0;}
+#cmdskill_45{width:76px; background-position:-781px 0;}
+#cmdskill_46{width:67px; background-position:-856px 0;}
+#cmdskill_47{width:74px; background-position:-923px 0;}
+#cmdskill_48{width:74px; background-position:-997px 0;}
+#cmdskill_49{width:70px; background-position:-1070px 0;}
+#cmdskill_50{width:70px; background-position:-1139px 0;}
+#cmdskill_51{width:66px; background-position:-1209px 0;}
+#cmdskill_52{width:65px; background-position:-1276px 0;}
+#cmdskill_53{width:69px; background-position:-1340px 0;}
+#cmdskill_54{width:69px; background-position:-1408px 0;}
+#cmdskill_55{width:71px; background-position:-1477px 0;}
+#cmdskill_56{width:71px; background-position:-1548px 0;}
+#cmdskill_57{width:66px; background-position:-1619px 0;}
+#cmdskill_58{width:70px; background-position:-1684px 0;}
+#cmdskill_59{width:71px; background-position:-1754px 0;}
+#cmdskill_60{width:65px; background-position:-1825px 0;}
+#cmdskill_61{width:69px; background-position:-1890px 0;}
+#cmdskill_63{width:70px; background-position:-1959px 0;}
+>>>>>>> parent of e7fdf88... 10/10/2013

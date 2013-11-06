@@ -8,7 +8,7 @@ Template Name: Kingdom Knight Index Page
 <div class="NightMask_body">
 <div id="center_wrapper">
 <div id="center">
-<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?><?php get_sidebar( 'Chitika' ); ?></div>
+<div id="Left_column"><?php get_sidebar( 'Kingdom_Knight_sidebar' ); ?></div>
 <div id="OLG_Main_content">
 
 <div class="ContentSetting"> 

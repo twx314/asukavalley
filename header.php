@@ -73,7 +73,7 @@
 </head>
 <body>
 	<div id="Sitewrapper">
-<header id="Mainheader">
+<header>
 	
 	<div id="header_BG">
     	<div id="Star"></div>
@@ -93,7 +93,7 @@
     
 	<nav id="Mainnav" class="NavitSetting">
     	<ul>
-            <li id="Mainnav_home">
+            <li>
             	<a href="http://www.asukavalley.com">
             	<ruby>
                 	首頁
@@ -102,7 +102,7 @@
                 </a>
             </li>
             
-            <li id="Mainnav_gal">
+            <li>
             	<a href="http://www.asukavalley.com/galgame-list/">
             	<ruby>
                 	美少女遊戲
@@ -111,7 +111,7 @@
                 </a>
             </li>
             
-            <li id="Mainnav_anime">
+            <li>
             	<a href="http://www.asukavalley.com/anime-list/">
             	<ruby>
                 	動畫
@@ -120,7 +120,7 @@
                 </a>
             </li>
             
-            <li id="Mainnav_olg">
+            <li>
             	<a href="http://www.asukavalley.com/olg/">
             	<ruby>
                 	線上遊戲

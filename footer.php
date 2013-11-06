@@ -16,7 +16,7 @@
 <!-- AddThis Button END -->
 	<p>Copyright &#169; 2013 <?php bloginfo(‘name’); ?></p>
 </div>
-
+	
 </footer>
 
 </div> <!-- NightMask END -->
